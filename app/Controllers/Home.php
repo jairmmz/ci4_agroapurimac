@@ -9,10 +9,9 @@ class Home extends BaseController
 {
     public function index()
     {
-        $p=new PlantillaController();
-        $datos['cabecera']= $p->cabeceraCliente();
-        $datos['pie']= $p->pieCliente();
-        return view('webCliente/index',$datos);
+        $p = new PlantillaController();
+        $datos['mensaje'] = session('mensaje');
+        return view('webAdmin/auth/login', $datos);
     }
     public function contacto()
     {

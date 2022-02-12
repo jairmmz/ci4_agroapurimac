@@ -5,7 +5,7 @@
     <div class="card">
         <div class="card-header d-flex justify-content-between">
             <div class="header-title">
-                <h4 class="card-title" _msthash="2343094" _msttexthash="60021">Caja para realizar ventas/carrito</h4>
+                <h4 class="card-title" _msthash="2343094" _msttexthash="60021">Caja para realizar ventas</h4>
             </div>
         </div>
         <!---->
@@ -13,10 +13,10 @@
         <div class="card-body">
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Listar carrito</a>
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Listar ventas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Agregar a carrito</a>
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Agregar una venta</a>
                 </li>
             </ul>
             <div class="tab-content" id="pills-tabContent-2">
@@ -33,7 +33,7 @@
                                 <th scope="col">Precio Unitario</th>
                                 <th scope="col">Precio Total</th>
                                 <th scope="col">Descripcion del Producto</th>
-                                <th scope="col">Acciones</th>
+                                <th scope="col">Acción</th>
                             </tr>
                         </thead>
                         <tbody>

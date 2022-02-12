@@ -37,12 +37,12 @@ insert into Categoria(nombre_categoria,descripcion_categoria) values('Marcianos'
 insert into Categoria(nombre_categoria,descripcion_categoria) values('Helado de Espuma','descripcion 1');
 
 create table Helado(
-id_helado int auto_increment primary key not null,
+id_producto int auto_increment primary key not null,
 nombre_helado varchar(20) not null,
-precio_helado double not null,
-stock_helado int not null,
-imagen1_helado varchar(200),
-imagen2_helado varchar(200),
+precio_producto double not null,
+stock_producto int not null,
+imagen1_producto varchar(200),
+imagen2_producto varchar(200),
 descripcion varchar(500) not null,
 id_categoria int not null,
 foreign key (id_categoria) references Categoria(id_categoria)
@@ -51,21 +51,21 @@ insert into Helado value(1,"Helado de ron",5,200,"imagenhelado1.jpg" ,"imagenhel
 
  create table Carrito(
 id_carrito int auto_increment primary key not null,
-id_helado int not null,
+id_producto int not null,
 id_usuario int not null,
 cantidad_carrito int not null,
-foreign key (id_helado) references Helado(id_helado),
+foreign key (id_producto) references Helado(id_producto),
 foreign key (id_usuario) references Usuario(id_usuario)
 );
 create table Ventas(
 id_venta int auto_increment primary key not null,
 id_usuario int not null,
-id_helado int not null,
+id_producto int not null,
 fecha datetime not null,
 cantidad int not null,
 precio_total double not null,
 foreign key (id_usuario) references Usuario(id_usuario),
-foreign key (id_helado) references Helado(id_helado)
+foreign key (id_producto) references Helado(id_producto)
 );
 
 create table Empresa(

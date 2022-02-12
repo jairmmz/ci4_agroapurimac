@@ -82,7 +82,7 @@
                                         <i class=""><svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                             </svg>
-                                        </i><span class="">Usuarios</span>
+                                        </i><span class="">Clientes</span>
                                     </a>
                                 </li>
                                 <li class=" sidebar-layout">
@@ -129,7 +129,7 @@
                             </a>
                         </li>
                         <li class="px-3 pt-3 pb-2">
-                            <span class="text-uppercase small font-weight-bold">Configuraciones de empresa</span>
+                            <span class="text-uppercase small font-weight-bold">Configuraciones de Empresa</span>
                         </li>
                         <li class=" sidebar-layout">
                             <a href="<?php echo base_url("") ?>/admin/configuraciones?>" class="svg-icon">
@@ -138,7 +138,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                                     </svg>
                                 </i>
-                                <span class="ml-2">Configuraciones generales</span>
+                                <span class="ml-2">Configuraciones Generales</span>
                             </a>
                         </li>
 
@@ -159,16 +159,6 @@
                         </li>
                         <li class="px-3 pt-3 pb-2">
                             <span class="text-uppercase small font-weight-bold">Ver</span>
-                        </li>
-                        <li class=" sidebar-layout">
-                            <a href="<?php echo base_url("") ?>/tienda" class="svg-icon" target="_blank">
-                                <i class="">
-                                    <svg class="svg-icon" id="iq-chart-1" width="18" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-                                    </svg>
-                                </i>
-                                <span class="ml-2">Ver Tienda</span>
-                            </a>
                         </li>
                         <li class=" sidebar-layout">
                             <a href="<?php echo base_url("") ?>/producto" class="svg-icon" target="_blank">
