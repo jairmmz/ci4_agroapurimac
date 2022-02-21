@@ -35,7 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'VENTA_HELADO_G1',
+        'database' => 'db_agroapurimac',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
